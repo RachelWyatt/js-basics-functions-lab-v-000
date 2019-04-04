@@ -27,12 +27,12 @@ function distanceTravelledInFeet (streetOne, streetTwo) {
 }
 
 function calculatesFarePrice (streetOne, streetTwo) {
-  distanceTravelledInFeet (streetOne, streetTwo)
-  if (distanceTravelledInFeet = 0) {
+  distance = distanceTravelledInFeet (streetOne, streetTwo)
+  if (distance = 0) {
     let result = 0;
     return result;
   }
-  else if (distanceTravelledInFeet >= 400 && distanceTravelledInFeet <= 2000) {
+  else if (distance >= 400 && distance <= 2000) {
     let result = 2;
     return result;
   }
