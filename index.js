@@ -41,7 +41,7 @@ function calculatesFarePrice (streetOne, streetTwo) {
     return result;
   }
       else if (distance > 2500) {
-    let result = 'cznnot travel that far';
+    let result = 'cannot travel that far';
     return result;
   }
 }
