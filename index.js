@@ -36,4 +36,8 @@ function calculatesFarePrice (streetOne, streetTwo) {
     let result = 2;
     return result;
   }
+    else if (distance > 2000) {
+    let result = 25;
+    return result;
+  }
 }
