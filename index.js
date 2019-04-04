@@ -4,7 +4,10 @@ function distanceFromHqInBlocks (someValue) {
     let result = someValue - 42;
     return result;
   }
-  return result
+  else if (someValue < 42) {
+    let result = someValue - 42 - someValue;
+    return result;
+  }
 }
  
 function distanceFromHqInFeet (someValue) {
