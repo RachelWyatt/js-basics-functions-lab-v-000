@@ -33,7 +33,7 @@ function calculatesFarePrice (streetOne, streetTwo) {
     return result;
   }
   else if (distance >= 400 && distance <= 2000) {
-    let result = .02 * distance;
+    let result = .02 * (distance - 400);
     return result;
   }
     else if (distance > 2000 && distance < 2500) {
