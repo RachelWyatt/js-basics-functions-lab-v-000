@@ -1,6 +1,5 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (someValue) {
-  //returns the number of blocks given a value
   let result = 42 - ${someValue}
   return result;
 }
