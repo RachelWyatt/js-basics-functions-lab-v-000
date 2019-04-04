@@ -28,7 +28,7 @@ function distanceTravelledInFeet (streetOne, streetTwo) {
 
 function calculatesFarePrice (streetOne, streetTwo) {
   distanceTravelledInFeet (streetOne, streetTwo)
-  if (distanceTravlledInFeet === 0) {
+  if (distanceTravelledInFeet === 0) {
     let result = free;
     return result;
   }
