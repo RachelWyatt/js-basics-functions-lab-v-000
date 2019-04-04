@@ -21,7 +21,7 @@ function distanceTravelledInFeet (streetOne, streetTwo) {
     return result;
   }
   else if (streetOne > streetTwo) {
-    let result = 42 - someValue;
+    let result = (streetOne - streetTwo) * 264;
     return result;
   }
 }
