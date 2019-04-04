@@ -16,5 +16,12 @@ function distanceFromHqInFeet (someValue) {
 }
 
 function distanceTravelledInFeet (streetOne, streetTwo) {
-
+  if (streetOne < streetTwo) {
+    let result = (streetOne - streetTwo) * 264;
+    return result;
+  }
+  else if (someValue < 42) {
+    let result = 42 - someValue;
+    return result;
+  }
 }
