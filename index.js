@@ -1,7 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (someValue) {
   let result = 42 - ${someValue}
-  return result;
+  {return result}
 }
  
 function distanceFromHqInFeet (someValue) {
