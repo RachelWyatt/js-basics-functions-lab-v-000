@@ -2,7 +2,6 @@
 function distanceFromHqInBlocks (someValue) {
   if (someValue >= 42) {
     let result = someValue - 42;
-    
   }
   return result
 }
