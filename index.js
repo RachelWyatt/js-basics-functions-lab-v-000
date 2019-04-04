@@ -32,8 +32,8 @@ function calculatesFarePrice (streetOne, streetTwo) {
     let result = 0;
     return result;
   }
-  else if (streetOne > streetTwo) {
-    let result = (streetOne - streetTwo) * 264;
+  else if (distanceTravelledInFeet >= 400 && <=2000) {
+    let result = "2 cents per foot";
     return result;
   }
 }
