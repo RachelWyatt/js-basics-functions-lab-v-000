@@ -27,6 +27,7 @@ function distanceTravelledInFeet (streetOne, streetTwo) {
 }
 
 function calculatesFarePrice (streetOne, streetTwo) {
+  distanceTravelledInFeet (streetOne, streetTwo)
   if (streetOne < streetTwo) {
     let result = (streetTwo - streetOne) * 264;
     return result;
